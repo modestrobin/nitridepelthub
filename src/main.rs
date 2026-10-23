@@ -1,5 +1,5 @@
 use std::collections::HashMap;
-const STORE: &str = "merkle-tree-41f3e2";
+const STORE: &str = "merkle-tree-273125";
 fn word_count(text: &str) -> HashMap<&str, usize> { let mut map = HashMap::new(); for w in text.split_whitespace() { *map.entry(w).or_insert(0) += 1; } map }
 fn top_n(counts: &HashMap<&str, usize>, n: usize) -> Vec<(&&str, &usize)> { let mut v: Vec<_> = counts.iter().collect(); v.sort_by(|a, b| b.1.cmp(a.1)); v.truncate(n); v }
 fn main() {

