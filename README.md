@@ -1,4 +1,4 @@
-# merkle-tree-8edd17
+# merkle-tree-41f3e2
 
 A Rust merkle-tree utility.
 

